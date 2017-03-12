@@ -10,7 +10,7 @@
 #define RAZER_NAGA_PID_HEX      0x0036
 #define RAZER_NAGA_PID_2014     0x0040
 #define RAZER_NAGA_PID_HEX_2014 0x0041
-
+#define RAZER_NAGA_PID_CHROMA	0x0053
 
 int razer_naga_init(struct razer_mouse *m,
 		    struct libusb_device *udev);

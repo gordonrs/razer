@@ -618,6 +618,9 @@ int razer_naga_init(struct razer_mouse *m,
 	case RAZER_NAGA_PID_2014:
 	    model = "Naga 2014";
 	    break;
+	case RAZER_NAGA_PID_CHROMA:
+	    model = "Naga Chroma";
+	    break;
 	}
 	razer_generic_usb_gen_idstr(usbdev, m->usb_ctx->h, model, 1,
 				    NULL, m->idstr);
